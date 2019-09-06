@@ -1,0 +1,76 @@
+body {
+    background-color: #EEEEEE;
+}
+
+nav {
+    background-color: #999999;
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid black;"
+}
+
+img.left-image {
+    margin-left: 12px;
+}
+
+pre {
+    font-size: 80%;
+    margin-left: 90px;
+    margin-top: 27px;
+    background-color: #0283f1;
+    padding: 12px 0px 12px 12px;
+    max-width: 50%;
+    box-shadow: 9px 9px #999999;
+    color: white;
+    border-radius: 3px;
+}
+
+.comment {
+    color: yellow;
+    font-weight: bold;
+}
+
+.list {
+    font-family: courier, terminal;
+    background-color: #0283f1;
+    padding: 12px 0px 12px 24px;
+    max-width: 30%;
+    box-shadow: 9px 9px #999999;
+    color: white;
+    border-radius: 3px;
+    margin-top: -12px;
+    font-size: 80%;
+}
+
+footer {
+    font-weight: bold;
+    background-color: #0283f1;
+    width: 100%;
+    height: 21px;
+    margin-bottom: 12px;
+    color: yellow;
+    position: fixed;
+    bottom: 12px;
+    left: 12px;
+    padding-left: 12px;
+    padding-top: 1px;
+    border-radius: 3px;
+    box-shadow: 3px 3px #999999;
+}
+
+p {
+    margin-left: 12px;
+}
+
+.article {
+    margin-left: 0px;
+}
+
+@keyframes cursor {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+}
+
+.anicursor {
+    animation: cursor 1.5s infinite;
+}

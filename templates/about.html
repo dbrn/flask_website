@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+    {% block head %}
+    <TITLE>A. Barzaghi's portfolio - ABOUT</TITLE>
+    {% endblock %}
+    {% block header %}
+    <H2>My Bio</H2>
+    {% endblock %}
+    {% block main %}
+    <DIV class="media space-xs-up">
+        <DIV class="media-left">
+            <IMG class="left-image" src="{{url_for('static', filename='images/me.jpeg')}}" alt="This is me!">
+        </DIV>
+        <DIV class="media-body">
+            <P class="article">My name is Andrea Barzaghi.
+            I was born in Milan, Italy, in 1984.
+            I teach Japanese grammar and translation for a living.
+            I work at Bergamo's University in Bergamo, Italy.
+            I got several hobbies, among them are:
+            <UL class="list">
+            <LI>Programming and computers</LI>
+            <LI>Languages and linguistics</LI>
+            <LI>Video-games and boardgames<SPAN class="anicursor"> &blk34;</SPAN></LI>
+            </UL>
+            I've been coding since my childhood. I wrote my first BASIC programs back
+            when I was in middle school. During my teen years I've been in several
+            internet groups. I can't name them here, but I've been interested in reverse-engineering,
+            demo-scene and ASCII art.</P>
+            <P class="article">During my university years I fell in love with Japan and eventually majored
+            Linguistics and Japanese. Now I work in the very same university where I was a student
+            </P>
+        </DIV>
+    </DIV>
+    {% endblock %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <LINK rel="stylesheet" href="https://unpkg.com/baseguide@3.2.1/dist/css/baseguide.min.css">
+        <LINK rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <META charset="UTF-8">
+        {% block head %}
+        {% endblock %}
+    </HEAD>
+    <BODY>
+        <HEADER>
+        <NAV>
+            <a class="btn" href="{{ url_for('home') }}" role="button">HOME</a>
+            <a class="btn" href="{{ url_for('code') }}" role="button">CODE</a>
+            <a class="btn" href="{{ url_for('about') }}" role="button">ABOUT</a>
+            <a class="btn" href="{{ url_for('contacts') }}" role="button">CONTACTS</a>
+        </NAV>
+            {% block header %}
+            {% endblock %}
+        </HEADER>
+        <MAIN>
+            <DIV>
+                {% block main %}
+                {% endblock %}
+            </DIV>
+        </MAIN>
+        <BR>
+        <BR>
+        <FOOTER>
+            <p class="small">© 2019 Andrea Barzaghi - All rights reserved</p>
+        </FOOTER>
+    </BODY>
+</HTML>
