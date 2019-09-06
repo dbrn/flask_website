@@ -1,2 +1,2 @@
 # flask_website
-What you see now is just the layout
+A simple personal homepage made with Baseguide framework, Flask and python3.
